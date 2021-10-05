@@ -1,0 +1,29 @@
+@media(min-width:768px) {
+    #page-wrapper {
+        position: inherit;
+        margin: 0 0 0 20%;
+        padding: 0 30px;
+        border-left: 1px solid #e7e7e7;
+    }
+    ul.navbar-top-links i.fa {
+        font-size: 30px;
+    }
+    .navbar-top-links {
+        min-height: 95px;
+        line-height: 70px;
+    }
+    .navbar {
+      min-height: 100px;
+    }
+    .sidebar {
+        z-index: 1;
+        position: absolute;
+        width: 20%;
+        margin-top: 101px;
+    }
+    .navbar-top-links .dropdown-messages, 
+    .navbar-top-links .dropdown-tasks, 
+    .navbar-top-links .dropdown-alerts {
+        margin-left: auto;
+    }
+}
